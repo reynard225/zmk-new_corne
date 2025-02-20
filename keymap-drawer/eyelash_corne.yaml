@@ -42,9 +42,9 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - LGUI
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
-  - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
+  - {t: '$$mdi:apple-keyboard-command$$', h: SYMBOL}
   - {t: '$$mdi:keyboard-return$$', h: Fn}
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
   - $$mdi:apple-keyboard-option$$
