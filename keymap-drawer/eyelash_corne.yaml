@@ -250,3 +250,5 @@ combos:
   l: [QWERTY]
 - p: [42, 0]
   k: '&screen'
+- p: [0, 1]
+  k: Gui+Sft+4
