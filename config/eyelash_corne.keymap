@@ -66,6 +66,11 @@
             key-positions = <28 13>;
             layers = <0>;
         };
+
+        screen {
+            bindings = <&screen>;
+            key-positions = <42 0>;
+        };
     };
 
     keymap {
