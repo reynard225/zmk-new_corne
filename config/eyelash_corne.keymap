@@ -71,6 +71,11 @@
             bindings = <&screen>;
             key-positions = <42 0>;
         };
+
+        sc {
+            bindings = <&kp LG(LS(NUMBER_4))>;
+            key-positions = <0 1>;
+        };
     };
 
     keymap {
