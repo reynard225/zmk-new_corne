@@ -53,7 +53,7 @@
         screen: screen {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_GUI &kp LS(NUMBER_4)>;
+            bindings = <&kp LS(LG(NUMBER_4))>;
             label = "SCREEN";
         };
     };
