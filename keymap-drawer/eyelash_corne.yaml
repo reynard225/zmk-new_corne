@@ -248,3 +248,5 @@ combos:
 - p: [28, 13]
   k: $$mdi:alpha-w-box$$
   l: [QWERTY]
+- p: [42, 0]
+  k: '&screen'
