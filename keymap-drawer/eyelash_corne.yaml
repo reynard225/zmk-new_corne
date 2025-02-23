@@ -71,10 +71,10 @@ layers:
   - RGB ON
   - {t: QWERTY, h: toggle}
   - RGB OFF
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - HOME
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
@@ -85,10 +85,10 @@ layers:
   - RGB EFF
   - '&bl BL_ON'
   - RGB COLOR HSB(0,100,50)
-  - RGB EFR
-  - RGB SPI
-  - RGB BRI
-  - RGB BRD
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
   - END
   - PG DN
   - '&screen'
@@ -252,3 +252,17 @@ combos:
   k: '&screen'
 - p: [0, 1]
   k: Gui+Sft+4
+- p: [42, 2]
+  k: '2'
+- p: [42, 1]
+  k: '1'
+- p: [42, 3]
+  k: '3'
+- p: [42, 4]
+  k: '4'
+- p: [42, 5]
+  k: '5'
+- p: [42, 18]
+  k: Gui+T
+- p: [42, 17]
+  k: F5
