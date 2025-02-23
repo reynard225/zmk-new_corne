@@ -56,6 +56,20 @@
             bindings = <&kp LS(LG(NUMBER_4))>;
             label = "SCREEN";
         };
+
+        no1: no1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(NUMBER_1) &kp NUMBER_1>;
+            label = "NO1";
+        };
+
+        no2: no2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(W) &kp NUMBER_2>;
+            label = "NO2";
+        };
     };
 
     combos {
