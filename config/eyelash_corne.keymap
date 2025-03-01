@@ -146,7 +146,7 @@
             bindings = <
 &kp LS(LG(NUMBER_4))  &kp N1           &kp N2          &kp N3   &kp N4  &kp N5                                           &rgb_ug RGB_EFF                                   &kp N6   &kp N7    &kp N8    &kp N9     &kp N0    &kp BSPC
 &trans                &trans           &trans          &trans   &trans  &trans                           &rgb_ug RGB_ON  &to 0                            &rgb_ug RGB_OFF  &none    &none     &kp UP    &none      &kp HOME  &kp PG_UP
-&trans                &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans   &trans  &rgb_ug RGB_EFF  &bt BT_SEL 0                    &rgb_ug RGB_COLOR_HSB(0,100,50)                   &none    &kp LEFT  &kp DOWN  &kp RIGHT  &kp END   &kp PG_DN
+&bt BT_SEL 0          &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans   &trans  &rgb_ug RGB_EFF  &bt BT_SEL 0                    &rgb_ug RGB_COLOR_HSB(0,100,50)                   &none    &kp LEFT  &kp DOWN  &kp RIGHT  &kp END   &kp PG_DN
                                                        &screen  &trans  &to 0                                                                                              &kp INS  &kp DEL   &trans
             >;
 
