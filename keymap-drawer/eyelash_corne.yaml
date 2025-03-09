@@ -218,9 +218,9 @@ layers:
   - {t: QWERTY, h: toggle}
   - {t: QWERTY, h: toggle}
   - {t: SYMBOL, h: toggle}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '=', s: +}
+  - {t: '-', s: _}
+  - +
   - '4'
   - '5'
   - '6'
@@ -232,16 +232,16 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '4', h: toggle}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '0'
+  - _
+  - {t: ',', s: <}
+  - .
   - '1'
   - '2'
   - '3'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - .
+  - {t: ',', s: <}
   - {t: '$$mdi:backspace$$', type: backspace}
   - '0'
 combos:
