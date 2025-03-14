@@ -2,7 +2,7 @@ layers:
   QWERTY:
   - $$mdi:keyboard-esc$$
   - Q
-  - W
+  - {t: W, type: held}
   - E
   - R
   - T
@@ -42,7 +42,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-command$$
+  - {t: '$$mdi:apple-keyboard-command$$', type: held}
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: F3, h: SYMBOL}
   - {t: '$$mdi:keyboard-space$$', h: Fn}
@@ -197,7 +197,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   '4':
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -218,8 +218,8 @@ layers:
   - {t: QWERTY, h: toggle}
   - {t: QWERTY, h: toggle}
   - {t: SYMBOL, h: toggle}
-  - {t: '=', s: +}
   - {t: '-', s: _}
+  - {t: '=', s: +}
   - +
   - '4'
   - '5'
@@ -233,13 +233,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '4', h: toggle}
   - _
-  - {t: ',', s: <}
+  - +
   - .
   - '1'
   - '2'
   - '3'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', type: held}
+  - $$mdi:keyboard-space$$
   - .
   - {t: ',', s: <}
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -253,9 +253,9 @@ combos:
 - p: [0, 1]
   k: Gui+Sft+4
 - p: [42, 2]
-  k: '2'
+  k: {t: QWERTY, h: '$$mdi:gesture-tap-hold$$'}
 - p: [42, 1]
-  k: '1'
+  k: {t: '4', h: '$$mdi:gesture-tap-hold$$'}
 - p: [42, 3]
   k: '3'
 - p: [42, 4]
