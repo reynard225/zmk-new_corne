@@ -89,13 +89,13 @@
         };
 
         no2 {
-            bindings = <&sl 0>;
-            key-positions = <42 2>;
+            bindings = <&to 0>;
+            key-positions = <42 1>;
         };
 
         no1 {
-            bindings = <&sl 4>;
-            key-positions = <42 1>;
+            bindings = <&to 4>;
+            key-positions = <42 2>;
         };
 
         no3 {
