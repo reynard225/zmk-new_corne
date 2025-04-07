@@ -267,3 +267,7 @@ combos:
   k: Gui+T
 - p: [42, 17]
   k: F5
+- p: [42, 2]
+  k: RGB COLOR HSB(0,91,48)
+- p: [42, 1]
+  k: RGB OFF
