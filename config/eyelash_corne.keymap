@@ -78,7 +78,7 @@
         RgbLayer0: RgbLayer1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&rgb_ug RGB_ON &rgb_ug RGB_COLOR_HSB(203,100,50) &to 4>;
+            bindings = <&rgb_ug RGB_ON &rgb_ug RGB_COLOR_HSB(203,100,50) &to 0>;
             label = "RGBLAYER1";
         };
     };
