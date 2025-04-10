@@ -67,6 +67,13 @@
             bindings = <&kp LG(W) &kp NUMBER_2>;
             label = "NO2";
         };
+
+        Layer4Glow: Layer4Glow {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 4 &rgb_ug RGB_ON &rgb_ug RGB_COLOR_HSB(0,100,50)>;
+            label = "LAYER4GLOW";
+        };
     };
 
     combos {
@@ -94,7 +101,7 @@
         };
 
         no1 {
-            bindings = <&to 4>;
+            bindings = <&Layer4Glow>;
             key-positions = <42 2>;
         };
 
@@ -121,16 +128,6 @@
         runF5 {
             bindings = <&kp F5>;
             key-positions = <42 17>;
-        };
-
-        RgbOn {
-            bindings = <&rgb_ug RGB_COLOR_HSB(0,91,48)>;
-            key-positions = <42 2>;
-        };
-
-        rgbOff {
-            bindings = <&rgb_ug RGB_OFF>;
-            key-positions = <42 1>;
         };
     };
 
