@@ -141,7 +141,7 @@ layers:
   - '}'
   - '|'
   - '~'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-space$$', type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -254,9 +254,9 @@ combos:
 - p: [0, 1]
   k: Gui+Sft+4
 - p: [42, 1]
-  k: {t: QWERTY, h: toggle}
+  k: '&RgbLayer0'
 - p: [42, 2]
-  k: '&Layer4Glow'
+  k: '&RgbLayer4'
 - p: [42, 3]
   k: '3'
 - p: [42, 4]
