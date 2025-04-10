@@ -71,21 +71,21 @@
         RgbLayer4: Layer4Glow {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&rgb_ug RGB_ON &rgb_ug RGB_COLOR_HSB(0,100,50) &to 4>;
+            bindings = <&rgb_ug RGB_ON &rgb_ug RGB_COLOR_HSB(0,100,50) &to 4 &rgb_ug RGB_OFF>;
             label = "LAYER4GLOW";
         };
 
         RgbLayer0: RgbLayer1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&rgb_ug RGB_ON &rgb_ug RGB_COLOR_HSB(203,100,50) &to 0>;
+            bindings = <&rgb_ug RGB_ON &rgb_ug RGB_COLOR_HSB(203,100,50) &to 0 &rgb_ug RGB_OFF>;
             label = "RGBLAYER1";
         };
 
         RgbLayer3: RgbLayer3 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&rgb_ug RGB_ON &rgb_ug RGB_COLOR_HSB(270,100,50) &to 2>;
+            bindings = <&rgb_ug RGB_ON &rgb_ug RGB_COLOR_HSB(270,100,50) &to 2 &rgb_ug RGB_OFF>;
             label = "RGBLAYER3";
         };
     };
