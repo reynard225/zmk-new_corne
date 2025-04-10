@@ -129,6 +129,11 @@
             bindings = <&kp F5>;
             key-positions = <42 17>;
         };
+
+        cmdSmdg {
+            bindings = <&kp LG(EQUAL)>;
+            key-positions = <42 43>;
+        };
     };
 
     keymap {
