@@ -81,6 +81,13 @@
             bindings = <&rgb_ug RGB_ON &rgb_ug RGB_COLOR_HSB(203,100,50) &to 0>;
             label = "RGBLAYER1";
         };
+
+        RgbLayer3: RgbLayer3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&rgb_ug RGB_ON &rgb_ug RGB_COLOR_HSB(270,100,50) &to 2>;
+            label = "RGBLAYER3";
+        };
     };
 
     combos {
@@ -113,7 +120,7 @@
         };
 
         no3 {
-            bindings = <&kp NUMBER_3>;
+            bindings = <&RgbLayer3>;
             key-positions = <42 3>;
         };
 
