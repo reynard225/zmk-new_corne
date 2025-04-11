@@ -145,8 +145,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-space$$', type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: <, type: held alternate}
+  - '>'
   Fn:
   - '&studio_unlock'
   - F1
