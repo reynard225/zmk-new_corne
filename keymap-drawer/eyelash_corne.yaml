@@ -113,7 +113,7 @@ layers:
   - )
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '?'
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
@@ -316,5 +316,9 @@ combos:
   k: Gui+T
 - p: [42, 17]
   k: F5
-- p: [42, 43]
+- p: [42, 43, 1]
   k: Gui+=
+- p: [19, 42]
+  k: {t: '$$mdi:minus-circle-outline$$', type: none}
+- p: [42, 21]
+  k: {t: '$$mdi:minus-circle-outline$$', type: none}
