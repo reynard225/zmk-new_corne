@@ -121,6 +121,13 @@
             bindings = <&rgb_ug RGB_ON &rgb_ug RGB_COLOR_HSB(270,100,50) &to 2>;
             label = "RGBLAYER3CONS";
         };
+
+        DesktopLeft: DesktopLeft {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&DesktopLeft>;
+            label = "DESKTOPLEFT";
+        };
     };
 
     combos {
@@ -179,7 +186,17 @@
 
         cmdSmdg {
             bindings = <&kp LG(EQUAL)>;
-            key-positions = <42 43>;
+            key-positions = <42 43 1>;
+        };
+
+        PrevScreen {
+            bindings = <&none>;
+            key-positions = <19 42>;
+        };
+
+        nextScreen {
+            bindings = <&none>;
+            key-positions = <42 21>;
         };
     };
 
@@ -214,7 +231,7 @@
             display-name = "SYMBOL";
             bindings = <
 &trans  &kp EXCL      &kp AT        &kp HASH          &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS       &kp ASTRK         &kp LPAR  &kp RPAR  &kp BSPC
-&trans  &trans        &mkp LCLK     &mkp MCLK         &mkp RCLK  &mkp MB4             &mmv MOVE_LEFT  &to 0           &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL      &kp LBKT          &kp RBKT  &kp BSLH  &kp GRAVE
+&trans  &kp QMARK     &mkp LCLK     &mkp MCLK         &mkp RCLK  &mkp MB4             &mmv MOVE_LEFT  &to 0           &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL      &kp LBKT          &kp RBKT  &kp BSLH  &kp GRAVE
 &trans  &out OUT_USB  &out OUT_BLE  &none             &none      &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS       &kp LBRC          &kp RBRC  &kp PIPE  &kp TILDE
                                     &kp LEFT_COMMAND  &trans     &kp SPACE                                                             &kp RET    &kp LESS_THAN  &kp GREATER_THAN
             >;
