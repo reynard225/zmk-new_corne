@@ -86,7 +86,7 @@ layers:
   - RGB EFF
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - RGB BRD
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '?'
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
