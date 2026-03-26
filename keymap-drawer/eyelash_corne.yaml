@@ -44,9 +44,9 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-command$$
-  - {t: LGUI, h: NUMBER}
+  - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: F3, h: SYMBOL}
-  - {t: '$$mdi:keyboard-space$$', h: Fn}
+  - {t: Ctl+LGUI, h: Fn}
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
   - $$mdi:apple-keyboard-control$$
   NUMBER:
