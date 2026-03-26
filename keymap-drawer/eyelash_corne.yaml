@@ -44,7 +44,7 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:keyboard-space$$', h: NUMBER}
+  - {t: LGUI, h: NUMBER}
   - {t: F3, h: SYMBOL}
   - {t: '$$mdi:keyboard-space$$', h: Fn}
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
@@ -246,7 +246,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - '0'
   '5':
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Q
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
