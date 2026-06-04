@@ -7,6 +7,12 @@ on:
       - .github/workflows/draw.yml
       - keymap_drawer.config.yaml
 
+# Serialize draws so the auto-commit of the keymap image can't race another
+# push and fail with "non-fast-forward". Newest push wins.
+concurrency:
+  group: draw-keymap-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   draw:
     uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
